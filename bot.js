@@ -255,7 +255,7 @@ Questa non si sceglie.
 // BOT ONLINE
 // ======================================================
 
-client.once("ready", async () => {
+client.once("clientReady", async () => {
 
     console.log(
         `👑 Maggiordomo online come ${client.user.tag}`
